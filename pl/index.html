@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Kalkulator BMI – oblicz wskaźnik masy ciała online | BMI Info</title>
+  <meta name="description" content="Darmowy kalkulator BMI. Oblicz wskaźnik masy ciała w cm/kg lub stopach/funtach, sprawdź kategorię wagi i prawidłowy zakres masy dla swojego wzrostu.">
+  <meta name="robots" content="index, follow">
+  <link rel="canonical" href="https://twoja-domena.pl/pl/">
+  <link rel="alternate" hreflang="pl" href="https://twoja-domena.pl/pl/">
+  <link rel="alternate" hreflang="en" href="https://twoja-domena.pl/en/">
+  <link rel="alternate" hreflang="x-default" href="https://twoja-domena.pl/en/">
+
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Kalkulator BMI – BMI Info">
+  <meta property="og:description" content="Oblicz swój wskaźnik BMI w kilka sekund. Kalkulator w cm/kg i stopach/funtach.">
+  <meta property="og:url" content="https://twoja-domena.pl/pl/">
+  <meta property="og:locale" content="pl_PL">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Literata:opsz,wght@7..72,500;7..72,600&family=IBM+Plex+Sans:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="../assets/style.css">
+
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "WebApplication",
+        "name": "BMI Info – kalkulator BMI",
+        "url": "https://twoja-domena.pl/pl/",
+        "applicationCategory": "HealthApplication",
+        "operatingSystem": "Any",
+        "inLanguage": "pl",
+        "offers": { "@type": "Offer", "price": "0", "priceCurrency": "PLN" }
+      },
+      {
+        "@type": "FAQPage",
+        "mainEntity": [
+          {
+            "@type": "Question",
+            "name": "Jak obliczyć BMI?",
+            "acceptedAnswer": { "@type": "Answer", "text": "BMI to masa ciała w kilogramach podzielona przez wzrost w metrach podniesiony do kwadratu. Na przykład osoba ważąca 70 kg i mierząca 1,75 m ma BMI 70 / (1,75 × 1,75) ≈ 22,9." }
+          },
+          {
+            "@type": "Question",
+            "name": "Jaki BMI jest prawidłowy?",
+            "acceptedAnswer": { "@type": "Answer", "text": "Według Światowej Organizacji Zdrowia wartość BMI od 18,5 do 24,9 odpowiada prawidłowej masie ciała u dorosłych." }
+          },
+          {
+            "@type": "Question",
+            "name": "Czy BMI jest dokładnym wskaźnikiem zdrowia?",
+            "acceptedAnswer": { "@type": "Answer", "text": "BMI jest prostym przesiewowym wskaźnikiem. Nie uwzględnia składu ciała, masy mięśniowej ani rozmieszczenia tkanki tłuszczowej, dlatego u sportowców i osób starszych może dawać mylące wyniki. Ocenę zdrowia powinien przeprowadzić lekarz." }
+          }
+        ]
+      }
+    ]
+  }
+  </script>
+</head>
+<body>
+  <div class="wrap">
+    <header class="site-header">
+      <a class="brand" href="../pl/">BMI Info</a>
+      <div class="lang" data-lang-switch>
+        <button type="button" class="lang-btn" aria-haspopup="true" aria-expanded="false" aria-controls="lang-menu">
+          <svg class="flag" viewBox="0 0 3 2" aria-hidden="true" focusable="false"><rect width="3" height="1" fill="#ffffff"/><rect y="1" width="3" height="1" fill="#dc143c"/></svg>
+          <span>PL</span>
+          <svg class="chev" viewBox="0 0 10 6" aria-hidden="true" focusable="false"><path d="M1 1l4 4 4-4" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+          <span class="sr-only" style="position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0)">Zmień język / Change language</span>
+        </button>
+        <ul class="lang-menu" id="lang-menu" hidden>
+          <li><a href="./" hreflang="pl" lang="pl" aria-current="page"><svg class="flag" viewBox="0 0 3 2" aria-hidden="true" focusable="false"><rect width="3" height="1" fill="#ffffff"/><rect y="1" width="3" height="1" fill="#dc143c"/></svg> Polski</a></li>
+          <li><a href="../en/" hreflang="en" lang="en"><svg class="flag" viewBox="0 0 60 30" aria-hidden="true" focusable="false"><clipPath id="lf-s"><path d="M0,0 v30 h60 v-30 z"/></clipPath><clipPath id="lf-t"><path d="M30,15 h30 v15 z v15 h-30 z h-30 v-15 z v-15 h30 z"/></clipPath><g clip-path="url(#lf-s)"><path d="M0,0 v30 h60 v-30 z" fill="#012169"/><path d="M0,0 L60,30 M60,0 L0,30" stroke="#fff" stroke-width="6"/><path d="M0,0 L60,30 M60,0 L0,30" clip-path="url(#lf-t)" stroke="#C8102E" stroke-width="4"/><path d="M30,0 v30 M0,15 h60" stroke="#fff" stroke-width="10"/><path d="M30,0 v30 M0,15 h60" stroke="#C8102E" stroke-width="6"/></g></svg> English</a></li>
+        </ul>
+      </div>
+    </header>
+
+    <main>
+      <h1>Kalkulator BMI</h1>
+      <p class="lead">Oblicz wskaźnik masy ciała (BMI) w kilka sekund. Wybierz jednostki cm i kg albo stopy i funty. Wynik pokazuje kategorię wagi i prawidłowy zakres masy dla Twojego wzrostu.</p>
+
+      <section class="calc" aria-labelledby="calc-title">
+        <h2 id="calc-title" class="sr-only" style="position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0);">Kalkulator BMI</h2>
+
+        <form class="calc-form" id="bmi-form" novalidate>
+          <div class="seg" role="radiogroup" aria-label="Jednostki">
+            <input type="radio" name="system" id="sys-m" value="metric" checked>
+            <label for="sys-m">cm / kg</label>
+            <input type="radio" name="system" id="sys-i" value="imperial">
+            <label for="sys-i">stopy / funty</label>
+          </div>
+
+          <div class="field" id="f-h-m">
+            <label class="field-label" for="h-cm">Wzrost (cm)</label>
+            <input type="number" id="h-cm" inputmode="decimal" min="50" max="272" step="0.1" placeholder="np. 175" autocomplete="off">
+          </div>
+
+          <fieldset class="field" id="f-h-i" hidden>
+            <legend class="field-label">Wzrost</legend>
+            <div class="row">
+              <div>
+                <label class="sub-label" for="h-ft">stopy</label>
+                <input type="number" id="h-ft" inputmode="numeric" min="1" max="8" step="1" placeholder="np. 5" autocomplete="off">
+              </div>
+              <div>
+                <label class="sub-label" for="h-in">cale</label>
+                <input type="number" id="h-in" inputmode="decimal" min="0" max="11.9" step="0.1" placeholder="np. 9" autocomplete="off">
+              </div>
+            </div>
+          </fieldset>
+
+          <div class="field">
+            <label class="field-label" for="w" id="w-label" data-kg="Masa ciała (kg)" data-lb="Masa ciała (funty)">Masa ciała (kg)</label>
+            <div class="row" style="align-items:center">
+              <div><input type="number" id="w" inputmode="decimal" min="2" max="500" step="0.1" placeholder="np. 70" autocomplete="off"></div>
+              <span id="w-unit" style="color:var(--muted);min-width:2.2em">kg</span>
+            </div>
+          </div>
+
+          <p class="hint">Wynik liczy się od razu. Nic nie jest zapisywane ani wysyłane.</p>
+        </form>
+
+        <div class="calc-result" aria-live="polite">
+          <p class="error" id="error" role="alert"></p>
+
+          <p class="empty" id="empty">Wpisz wzrost i wagę, a wynik pojawi się od razu.</p>
+
+          <div id="out" hidden>
+            <div>
+              <span class="bmi-num" id="bmi">–</span>
+              <span class="bmi-unit">BMI</span>
+            </div>
+            <p class="cat" id="cat"></p>
+            <p class="ideal" id="ideal"></p>
+
+            <div class="scale-wrap" aria-hidden="true">
+              <div class="scale">
+                <span class="s-u"></span><span class="s-n"></span><span class="s-o"></span><span class="s-b"></span>
+                <div class="marker" id="marker" hidden></div>
+              </div>
+              <div class="ticks">
+                <span style="left:14%">18,5</span>
+                <span style="left:40%">25</span>
+                <span style="left:60%">30</span>
+                <span style="left:80%">35</span>
+                <span style="left:100%">40</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <article class="content">
+        <h2>Czym jest BMI?</h2>
+        <p>BMI, czyli wskaźnik masy ciała (ang. body mass index), to prosta miara relacji między masą a wzrostem. Pozwala szybko sprawdzić, czy masa ciała mieści się w zakresie uznawanym za prawidłowy dla dorosłych. Jest szeroko stosowany w badaniach populacyjnych i w gabinetach lekarskich jako wstępne narzędzie przesiewowe.</p>
+
+        <h2>Jak obliczyć BMI?</h2>
+        <p>Wzór jest prosty. Dzielisz masę ciała w kilogramach przez wzrost w metrach podniesiony do kwadratu:</p>
+        <p class="formula">BMI = masa (kg) ÷ wzrost (m)²</p>
+        <p>Przykład: osoba ważąca 70 kg i mierząca 1,75 m ma BMI 70 ÷ (1,75 × 1,75), czyli około 22,9. W systemie imperialnym wzór ma postać BMI = 703 × masa (funty) ÷ wzrost (cale)².</p>
+
+        <h2>Kategorie BMI wg WHO</h2>
+        <table>
+          <thead>
+            <tr><th scope="col">Wartość BMI</th><th scope="col">Kategoria</th></tr>
+          </thead>
+          <tbody>
+            <tr><td>poniżej 18,5</td><td>Niedowaga</td></tr>
+            <tr><td>18,5 – 24,9</td><td>Prawidłowa masa ciała</td></tr>
+            <tr><td>25,0 – 29,9</td><td>Nadwaga</td></tr>
+            <tr><td>30,0 – 34,9</td><td>Otyłość I stopnia</td></tr>
+            <tr><td>35,0 – 39,9</td><td>Otyłość II stopnia</td></tr>
+            <tr><td>40,0 i więcej</td><td>Otyłość III stopnia</td></tr>
+          </tbody>
+        </table>
+
+        <h2>Ograniczenia BMI</h2>
+        <p>BMI nie mierzy składu ciała. Osoby z dużą masą mięśniową, na przykład sportowcy, mogą mieć wysokie BMI mimo zdrowej sylwetki. Z kolei u osób starszych utrata mięśni bywa niewidoczna w tym wskaźniku. Wynik nie pokazuje też, gdzie gromadzi się tkanka tłuszczowa, a to ma znaczenie dla ryzyka chorób. Dlatego warto łączyć BMI z obwodem talii i badaniami lekarskimi.</p>
+
+        <h2>Pytania i odpowiedzi</h2>
+        <details>
+          <summary>Jaki BMI jest prawidłowy?</summary>
+          <p>Według Światowej Organizacji Zdrowia wartość od 18,5 do 24,9 odpowiada prawidłowej masie ciała u dorosłych.</p>
+        </details>
+        <details>
+          <summary>Czy BMI jest dokładnym wskaźnikiem zdrowia?</summary>
+          <p>To prosty wskaźnik przesiewowy. Nie uwzględnia składu ciała, więc przy dużej masie mięśniowej lub u osób starszych może dawać mylące wyniki.</p>
+        </details>
+        <details>
+          <summary>Czy BMI różni się dla dzieci?</summary>
+          <p>Tak. U dzieci i młodzieży ocenia się BMI w odniesieniu do wieku i płci, z użyciem siatek centylowych. Ten kalkulator jest przeznaczony dla dorosłych.</p>
+        </details>
+        <details>
+          <summary>Czy mogę wpisać wzrost w stopach i cali?</summary>
+          <p>Tak. Przełącz jednostki na stopy i funty. Wartości zostaną przeliczone automatycznie.</p>
+        </details>
+
+        <p class="notice"><strong>Informacja medyczna.</strong> Ten kalkulator ma charakter informacyjny i nie zastępuje konsultacji z lekarzem ani dietetykiem. Jeśli masz pytania o swoją wagę lub zdrowie, skontaktuj się z lekarzem.</p>
+      </article>
+    </main>
+
+    <footer class="site-footer">
+      <p>BMI Info, darmowy kalkulator BMI dla dorosłych.</p>
+      <p>Strona nie zbiera danych o wzroście ani wadze i nie wymaga logowania.</p>
+      <p><a href="../pl/polityka-prywatnosci/">Polityka prywatności</a></p>
+    </footer>
+  </div>
+
+  <script src="../assets/lang.js" defer></script>
+  <script src="../assets/app.js" defer></script>
+</body>
+</html>
