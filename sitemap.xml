@@ -2,27 +2,27 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
         xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://twoja-domena.pl/pl/</loc>
-    <xhtml:link rel="alternate" hreflang="pl" href="https://twoja-domena.pl/pl/"/>
-    <xhtml:link rel="alternate" hreflang="en" href="https://twoja-domena.pl/en/"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://twoja-domena.pl/en/"/>
+    <loc>https://bartekAndrzej.github.io/bmi-info/pl/</loc>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://bartekAndrzej.github.io/bmi-info/pl/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://bartekAndrzej.github.io/bmi-info/en/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://bartekAndrzej.github.io/bmi-info/en/"/>
   </url>
   <url>
-    <loc>https://twoja-domena.pl/en/</loc>
-    <xhtml:link rel="alternate" hreflang="en" href="https://twoja-domena.pl/en/"/>
-    <xhtml:link rel="alternate" hreflang="pl" href="https://twoja-domena.pl/pl/"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://twoja-domena.pl/en/"/>
+    <loc>https://bartekAndrzej.github.io/bmi-info/en/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://bartekAndrzej.github.io/bmi-info/en/"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://bartekAndrzej.github.io/bmi-info/pl/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://bartekAndrzej.github.io/bmi-info/en/"/>
   </url>
   <url>
-    <loc>https://twoja-domena.pl/pl/polityka-prywatnosci/</loc>
-    <xhtml:link rel="alternate" hreflang="pl" href="https://twoja-domena.pl/pl/polityka-prywatnosci/"/>
-    <xhtml:link rel="alternate" hreflang="en" href="https://twoja-domena.pl/en/privacy-policy/"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://twoja-domena.pl/en/privacy-policy/"/>
+    <loc>https://bartekAndrzej.github.io/bmi-info/pl/polityka-prywatnosci/</loc>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://bartekAndrzej.github.io/bmi-info/pl/polityka-prywatnosci/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://bartekAndrzej.github.io/bmi-info/en/privacy-policy/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://bartekAndrzej.github.io/bmi-info/en/privacy-policy/"/>
   </url>
   <url>
-    <loc>https://twoja-domena.pl/en/privacy-policy/</loc>
-    <xhtml:link rel="alternate" hreflang="en" href="https://twoja-domena.pl/en/privacy-policy/"/>
-    <xhtml:link rel="alternate" hreflang="pl" href="https://twoja-domena.pl/pl/polityka-prywatnosci/"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://twoja-domena.pl/en/privacy-policy/"/>
+    <loc>https://bartekAndrzej.github.io/bmi-info/en/privacy-policy/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://bartekAndrzej.github.io/bmi-info/en/privacy-policy/"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://bartekAndrzej.github.io/bmi-info/pl/polityka-prywatnosci/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://bartekAndrzej.github.io/bmi-info/en/privacy-policy/"/>
   </url>
 </urlset>
